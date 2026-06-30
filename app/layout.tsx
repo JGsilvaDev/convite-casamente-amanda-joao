@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Great_Vibes, Cormorant_Garamond } from "next/font/google";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 
 const greatVibes = Great_Vibes({
@@ -61,7 +61,7 @@ export default function RootLayout({
     >
       <body>
         {children}
-        <SpeedInsights />  
+        <Analytics />  
       </body>
     </html>
   );
