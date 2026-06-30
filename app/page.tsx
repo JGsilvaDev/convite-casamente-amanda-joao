@@ -112,14 +112,14 @@ export default function CoverPage() {
           className="
             bg-[#f5eee6]
             text-center
-            -mt-10
+            -mt-11
             pt-12
             pb-0
           "
         >
           {/* TEXTO */}
           <div
-            className="animate-fade-slide opacity-0 flex flex-col items-center -mt-15"
+            className="animate-fade-slide opacity-0 flex flex-col items-center -mt-10"
             style={{
               animationDelay: "0.8s",
               animationFillMode: "both",
