@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/public/galery/galery-2.jpeg",
+        url: "/galery/galery-2.jpeg",
         width: 1200,
         height: 630,
         alt: "Amanda e João Gabriel",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "Amanda e João Gabriel | Convite de Casamento",
     description:
       "Convite de casamento de Amanda e João Gabriel — 09 de Maio de 2026",
-    images: ["/public/galery/galery-2.jpeg"],
+     images: ["/galery/galery-2.jpeg"],
   },
 };
 
