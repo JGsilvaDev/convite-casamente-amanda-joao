@@ -69,7 +69,7 @@ export default function CoverPage() {
             z-20
             flex
             justify-center
-            -mt-30
+            -mt-20
           "
           style={{
             animationDelay: "0.5s",
@@ -119,7 +119,7 @@ export default function CoverPage() {
         >
           {/* TEXTO */}
           <div
-            className="animate-fade-slide opacity-0 flex flex-col items-center -mt-30"
+            className="animate-fade-slide opacity-0 flex flex-col items-center -mt-15"
             style={{
               animationDelay: "0.8s",
               animationFillMode: "both",
@@ -162,7 +162,7 @@ export default function CoverPage() {
               opacity-90
               pointer-events-none
               select-none
-              -mt-40
+              -mt-4
             "
           />
         </div>
