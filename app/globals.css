@@ -15,6 +15,10 @@
   --font-body: "Cormorant Garamond", Georgia, "Times New Roman", serif;
 }
 
+:root {
+  --font-sans-humanista: var(--font-lato);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -26,7 +30,7 @@ html {
 }
 
 body {
-  font-family: var(--font-body);
+  font-family: var(--font-sans-humanista), sans-serif;
   background: #102011;
   overflow-x: hidden;
   margin: 0;
@@ -136,4 +140,187 @@ body {
 
 .animate-close-invitation {
   animation: closeInvitation 1.2s ease-in-out forwards;
+}
+
+@keyframes irisClose {
+  0% {
+    clip-path: circle(160% at 50% 50%);
+    filter: blur(0px);
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  10% {
+    clip-path: circle(155% at 50% 50%);
+    filter: blur(0px);
+    transform: scale(1.001);
+  }
+
+  20% {
+    clip-path: circle(148% at 50% 50%);
+    filter: blur(0.15px);
+    transform: scale(1.002);
+  }
+
+  30% {
+    clip-path: circle(138% at 50% 50%);
+    filter: blur(0.25px);
+    transform: scale(1.003);
+  }
+
+  40% {
+    clip-path: circle(125% at 50% 50%);
+    filter: blur(0.4px);
+    transform: scale(1.005);
+  }
+
+  50% {
+    clip-path: circle(108% at 50% 50%);
+    filter: blur(0.6px);
+    transform: scale(1.007);
+  }
+
+  60% {
+    clip-path: circle(88% at 50% 50%);
+    filter: blur(0.8px);
+    transform: scale(1.009);
+  }
+
+  70% {
+    clip-path: circle(65% at 50% 50%);
+    filter: blur(1px);
+    transform: scale(1.011);
+  }
+
+  80% {
+    clip-path: circle(42% at 50% 50%);
+    filter: blur(1.5px);
+    transform: scale(1.014);
+  }
+
+  90% {
+    clip-path: circle(20% at 50% 50%);
+    filter: blur(2px);
+    transform: scale(1.017);
+  }
+
+  96% {
+    clip-path: circle(8% at 50% 50%);
+    filter: blur(3px);
+    transform: scale(1.019);
+  }
+
+  100% {
+    clip-path: circle(0% at 50% 50%);
+    filter: blur(4px);
+    transform: scale(1.02);
+    opacity: 0;
+  }
+}
+
+.iris-close {
+  animation: irisClose 2.2s cubic-bezier(.19,1,.22,1) forwards;
+}
+
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.page-fade-in {
+  animation: pageFadeIn 800ms ease-in-out forwards;
+}
+
+.page-fade-in-final {
+  position: relative;
+}
+
+.page-fade-in-final::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: #ffffff;
+  z-index: 9999;
+  pointer-events: none;
+
+  animation: fadeFromWhite 1.4s ease-out forwards;
+}
+
+@keyframes fadeFromWhite {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0.75;
+  }
+
+  60% {
+    opacity: 0.35;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.font-script {
+  font-family: var(--font-ballet), cursive;
+}
+
+.icon-green {
+  filter:
+    invert(35%)
+    sepia(15%)
+    saturate(700%)
+    hue-rotate(70deg)
+    brightness(85%)
+    contrast(90%);
+}
+
+.ticket-frame {
+  position: relative;
+  background: #f7f6ef;
+  border: 1px solid rgba(94, 118, 87, 0.18);
+
+  clip-path: polygon(
+    18px 0,
+    calc(100% - 18px) 0,
+    100% 18px,
+    100% calc(100% - 18px),
+    calc(100% - 18px) 100%,
+    18px 100%,
+    0 calc(100% - 18px),
+    0 18px
+  );
+
+  box-shadow:
+    0 12px 30px rgba(50, 70, 45, 0.08),
+    inset 0 0 0 6px rgba(255,255,255,.35);
+}
+
+.ticket {
+  background: #f3f2ea;
+  border: 1px solid rgba(94,118,87,.18);
+  box-shadow:
+    0 10px 25px rgba(0,0,0,.08),
+    inset 0 0 0 6px rgba(255,255,255,.35);
+
+  clip-path: path(
+    "M30 0
+     H330
+     Q350 0 350 20
+     V180
+     Q350 200 330 200
+     H30
+     Q10 200 10 180
+     V20
+     Q10 0 30 0Z"
+  );
 }

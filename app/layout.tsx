@@ -1,7 +1,20 @@
 import type { Metadata } from "next";
 import { Great_Vibes, Cormorant_Garamond } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next"
+import { Lato, Ballet  } from "next/font/google";
 import "./globals.css";
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+  variable: "--font-lato",
+});
+
+const ballet = Ballet({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-ballet",
+});
 
 const greatVibes = Great_Vibes({
   subsets: ["latin"],
@@ -57,7 +70,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${greatVibes.variable} ${cormorant.variable}`}
+      className={`${greatVibes.variable} ${cormorant.variable} ${lato.variable} ${ballet.variable}`}
     >
       <body>
         {children}
