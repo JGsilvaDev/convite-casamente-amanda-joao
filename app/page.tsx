@@ -8,10 +8,18 @@ export default function CoverPage() {
   const router = useRouter();
   const [opening, setOpening] = useState(false);
 
-  function handleOpen() {
+  async function handleOpen() {
     if (opening) return;
 
     setOpening(true);
+
+    try {
+      if (document.documentElement.requestFullscreen) {
+        await document.documentElement.requestFullscreen();
+      }
+    } catch (error) {
+      console.log("Fullscreen não permitido:", error);
+    }
 
     setTimeout(() => {
       router.push("/convite");

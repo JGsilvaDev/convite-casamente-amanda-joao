@@ -1040,14 +1040,6 @@ export default function InvitationPage() {
             Por você!
           </p>
 
-          <Image
-            src="/photos/logo.png"
-            alt=""
-            width={170}
-            height={170}
-            className="mx-auto mb-8"
-          />
-
           {/* Assinatura final */}
           <div className="mb-6">
             <p
