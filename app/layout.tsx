@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Great_Vibes, Cormorant_Garamond } from "next/font/google";
+import { Great_Vibes, Cormorant_Garamond, Pinyon_Script } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next"
 import { Lato, Ballet  } from "next/font/google";
 import "./globals.css";
@@ -27,6 +27,13 @@ const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["300", "400", "600"],
   variable: "--font-body",
+  display: "swap",
+});
+
+const pinyon = Pinyon_Script({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-pinyon",
   display: "swap",
 });
 
@@ -70,7 +77,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${greatVibes.variable} ${cormorant.variable} ${lato.variable} ${ballet.variable}`}
+      className={`${greatVibes.variable} ${cormorant.variable} ${lato.variable} ${ballet.variable} ${pinyon.variable}`}
     >
       <body>
         {children}

@@ -279,7 +279,7 @@ function LocationSection({
 /* ─────────────── Página principal ─────────────── */
 export default function InvitationPage() {
   return (
-    <main className="min-h-svh w-full flex justify-center bg-[#f7f5ef]">
+    <main className="min-h-svh w-full flex justify-center bg-[#F9F3EA]">
       <article
         className="
           page-fade-in
@@ -287,13 +287,13 @@ export default function InvitationPage() {
           w-full
           max-w-[430px]
           bg-gradient-to-b
-          from-[#e7efdf]
+          from-[#F9F3EA]
           via-[#f5f7ef]
           to-[#fdfcf9]
           text-center
         "
       >
-        <div className="relative flex justify-center overflow-hidden bg-[#e7efdf]">
+        <div className="relative flex justify-center overflow-hidden bg-[#F9F3EA]">
           <div
             className="
               absolute
@@ -302,7 +302,7 @@ export default function InvitationPage() {
               h-24
               bg-gradient-to-b
               via-[#eef4e8]/70
-              to-[#e7efdf]
+              to-[#F9F3EA]
               z-10
             "
           />
@@ -471,7 +471,7 @@ export default function InvitationPage() {
                 top-0
                 h-24
                 bg-gradient-to-b
-                from-[#e7efdf]
+                from-[#F9F3EA]
                 to-transparent
               "
             />
@@ -484,7 +484,7 @@ export default function InvitationPage() {
                 bottom-0
                 h-28
                 bg-gradient-to-t
-                from-[#e7efdf]
+                from-[#F9F3EA]
                 to-transparent
               "
             />
@@ -543,7 +543,7 @@ export default function InvitationPage() {
                 absolute
                 right-[-15px]
                 top-8
-                -mt-25
+                -mt-50
                 opacity-60
                 pointer-events-none
                 select-none
@@ -710,7 +710,7 @@ export default function InvitationPage() {
                 top-0
                 h-24
                 bg-gradient-to-b
-                from-[#e7efdf]
+                from-[#F9F3EA]
                 to-transparent
               "
             />
@@ -723,7 +723,7 @@ export default function InvitationPage() {
                 bottom-0
                 h-28
                 bg-gradient-to-t
-                from-[#e7efdf]
+                from-[#F9F3EA]
                 to-transparent
               "
             />

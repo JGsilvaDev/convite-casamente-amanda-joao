@@ -13,6 +13,7 @@
 
   --font-script: "Great Vibes", "Segoe Script", "Brush Script MT", cursive;
   --font-body: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+
 }
 
 :root {
@@ -80,6 +81,7 @@ body {
 .delay-800  { animation-delay: 0.8s; }
 .delay-1000 { animation-delay: 1.0s; }
 
+
 /* ─── Paper texture background ─── */
 .paper-bg {
   background:
@@ -117,11 +119,7 @@ body {
   background: linear-gradient(to bottom, transparent 40%, rgba(8, 25, 11, 0.82) 100%);
 }
 
-/* ─── Script font utility ─── */
-.font-script {
-  font-family: var(--font-script);
-  font-weight: 400;
-}
+
 
 /* ─── Countdown number animation ─── */
 .countdown-num {
@@ -270,8 +268,19 @@ body {
   }
 }
 
-.font-script {
+/* ─── Script font utility ─── */
+/* .font-script {
+  font-family: var(--font-script);
+  font-weight: 400;
+} */
+
+/* .font-script {
   font-family: var(--font-ballet), cursive;
+} */
+
+.font-script {
+  font-family: var(--font-pinyon), cursive;
+  font-weight: 400;
 }
 
 .icon-green {
