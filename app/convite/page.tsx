@@ -24,7 +24,7 @@ const details = {
   },
   reception: {
     label: "Recepção",
-    place: "Shekinah",
+    place: "Espaço Shekinah",
     address: "",
     map: "https://www.google.com/maps/place/Espa%C3%A7o+Shekinah/@-22.8898772,-45.5048244,17z/data=!3m1!4b1!4m6!3m5!1s0x94ccf16038c66d4d:0x7e3abd81531aefc5!8m2!3d-22.8898772!4d-45.5048244!16s%2Fg%2F11gfjry0ds?entry=ttu&g_ep=EgoyMDI2MDYwMS4wIKXMDSoASAFQAw%3D%3D",
   },
@@ -192,8 +192,8 @@ function LocationSection({
             : "/photos/leaf-left.png"
         }
         alt=""
-        width={110}
-        height={160}
+        width={140}
+        height={150}
         className={`
           absolute
           opacity-60
@@ -378,7 +378,7 @@ export default function InvitationPage() {
                 absolute
                 -left-5
                 top-0
-                opacity-20
+                opacity-15
                 pointer-events-none
                 select-none
               "
@@ -394,7 +394,7 @@ export default function InvitationPage() {
                 -right-5
                 bottom-0
                 rotate-180
-                opacity-20
+                opacity-15
                 pointer-events-none
                 select-none
               "
@@ -541,9 +541,9 @@ export default function InvitationPage() {
               height={150}
               className="
                 absolute
-                right-[-15px]
+                right-[-28px]
                 top-8
-                -mt-50
+                -mt-30
                 opacity-60
                 pointer-events-none
                 select-none
@@ -872,7 +872,7 @@ export default function InvitationPage() {
                 absolute
                 -left-5
                 top-0
-                opacity-20
+                opacity-15
                 pointer-events-none
                 select-none
                 mt-[-60px]
@@ -889,7 +889,7 @@ export default function InvitationPage() {
                 -right-5
                 top-0
                 rotate-180
-                opacity-20
+                opacity-15
                 pointer-events-none
                 select-none
                 mt-[120px]
@@ -1031,7 +1031,7 @@ export default function InvitationPage() {
               text-[#5e7657]
               leading-none
               font-bold
-              mb-30
+              mb-10
             "
             style={{
               fontSize: "clamp(2.5rem, 10vw, 3.3rem)",
@@ -1039,6 +1039,29 @@ export default function InvitationPage() {
           >
             Por você!
           </p>
+
+          <div
+            className="
+              max-w-[290px]
+              mx-auto
+              flex
+              justify-center
+              items-center
+              text-[#4f5f48]
+              mb-10
+            "
+          >
+            <Image
+              src="/photos/logo.png"
+              alt=""
+              width={250}
+              height={55}
+              className="
+                object-contain
+              "
+            />
+          </div>
+
 
           {/* Assinatura final */}
           <div className="mb-6">
