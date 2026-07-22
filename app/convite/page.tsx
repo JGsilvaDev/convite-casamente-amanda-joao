@@ -1052,7 +1052,7 @@ export default function InvitationPage() {
             "
           >
             <Image
-              src="/photos/logo.png"
+              src="/photos/logo.jpeg"
               alt=""
               width={250}
               height={55}
