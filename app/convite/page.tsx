@@ -966,6 +966,18 @@ export default function InvitationPage() {
             >
               <span
                 className="
+                  mt-3
+                  uppercase
+                  tracking-[0.18em]
+                  text-[0.7rem]
+                  text-[#898548]
+                "
+              >
+                Lista de presentes
+              </span>
+
+              <span
+                className="
                   flex
                   items-center
                   justify-center
@@ -979,18 +991,6 @@ export default function InvitationPage() {
                   group-hover:scale-105
                 "
               >
-                <span
-                  className="
-                    mt-3
-                    uppercase
-                    tracking-[0.18em]
-                    text-[0.7rem]
-                    text-[#898548]
-                  "
-                >
-                  Lista de presentes
-                </span>
-                
                 <Gift
                   className="
                     w-8
@@ -1000,7 +1000,6 @@ export default function InvitationPage() {
                   strokeWidth={1.4}
                 />
               </span>
-
             </a>
 
           </section>
