@@ -924,6 +924,7 @@ export default function InvitationPage() {
                 max-w-[290px]
                 mx-auto
                 text-[#898548]
+                mb-5
               "
             >
               <p
@@ -978,6 +979,18 @@ export default function InvitationPage() {
                   group-hover:scale-105
                 "
               >
+                <span
+                  className="
+                    mt-3
+                    uppercase
+                    tracking-[0.18em]
+                    text-[0.7rem]
+                    text-[#898548]
+                  "
+                >
+                  Lista de presentes
+                </span>
+                
                 <Gift
                   className="
                     w-8
@@ -988,17 +1001,6 @@ export default function InvitationPage() {
                 />
               </span>
 
-              <span
-                className="
-                  mt-3
-                  uppercase
-                  tracking-[0.18em]
-                  text-[0.7rem]
-                  text-[#898548]
-                "
-              >
-                Lista de presentes
-              </span>
             </a>
 
           </section>
