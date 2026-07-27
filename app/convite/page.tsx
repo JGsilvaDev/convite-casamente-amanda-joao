@@ -896,37 +896,6 @@ export default function InvitationPage() {
               "
             />
 
-            {/* Texto */}
-            <div
-              className="
-                max-w-[290px]
-                mx-auto
-                text-[#898548]
-              "
-            >
-              <p
-                className="
-                  leading-8
-                  text-[0.9rem]
-                "
-              >
-                NOSSO MAIOR PRESENTE SERÁ A SUA PRESENÇA
-                NESTE MOMENTO TÃO ESPECIAL PARA NÓS.
-              </p>
-
-
-              <p
-                className="
-                  mt-5
-                  leading-8
-                  text-[0.9rem]
-                "
-              >
-                CASO QUEIRA NOS PRESENTEAR COM ALGO
-                MATERIAL, SUGERIMOS A LISTA DE PRESENTES.
-              </p>
-            </div>
-
             {/* Título */}
             <h2
               className="
@@ -949,6 +918,35 @@ export default function InvitationPage() {
               </span>
             </h2>
 
+            {/* Texto */}
+            <div
+              className="
+                max-w-[290px]
+                mx-auto
+                text-[#898548]
+              "
+            >
+              <p
+                className="
+                  leading-8
+                  text-[0.9rem]
+                "
+              >
+                NOSSO MAIOR PRESENTE SERÁ A SUA PRESENÇA
+                NESTE MOMENTO TÃO ESPECIAL PARA NÓS.
+              </p>
+
+              <p
+                className="
+                  mt-5
+                  leading-8
+                  text-[0.9rem]
+                "
+              >
+                CASO QUEIRA NOS PRESENTEAR COM ALGO
+                MATERIAL, SUGERIMOS A LISTA DE PRESENTES.
+              </p>
+            </div>
 
             {/* Ícone clicável */}
             <a
