@@ -56,7 +56,7 @@ function MapButton({
         gap-2
         mt-2
         mb-6
-        text-[#35562f]
+        text-[#898548]
         transition-transform
         hover:scale-105
       "
@@ -70,8 +70,8 @@ function MapButton({
           h-16
           rounded-full
           border
-          border-[#B3AB7A]/25
-          text-[#B3AB7A]
+          border-[#898548]/25
+          text-[#898548]
         "
       >
         {isCeremony ? (
@@ -98,7 +98,7 @@ function MapButton({
           text-[0.7rem]
           uppercase
           tracking-[0.18em]
-          text-[#35562f]
+          text-[#898548]
         "
       >
         {isCeremony ? "Cerimônia" : "Recepção"}
@@ -127,7 +127,7 @@ function MusicButton() {
       <audio ref={audioRef} src={details.music} loop />
       <div className="flex flex-col items-center mb-10">
         <span
-          className="text-[#B3AB7A] font-script text-sm mb-2"
+          className="text-[#898548] font-script text-sm mb-2"
           style={{ transform: "rotate(-8deg)", display: "block" }}
         >
           toque a música
@@ -139,7 +139,7 @@ function MusicButton() {
           className={`
             relative flex items-center justify-center w-14 h-14
             rounded-full border border-[#4f673f]/25
-            bg-[#f8fff3]/90 text-[#35562f]
+            bg-[#f8fff3]/90 text-[#898548]
             transition-all
             ${playing ? "animate-ring" : ""}
           `}
@@ -223,7 +223,7 @@ function LocationSection({
         <h2
           className="
             font-script
-            text-[#35562f]
+            text-[#898548]
             leading-none
             font-bold
             mb-5
@@ -242,7 +242,7 @@ function LocationSection({
             text-[0.82rem]
             uppercase
             tracking-[0.12em]
-            text-[#35562f]
+            text-[#898548]
             font-semibold
             mb-3
           "
@@ -257,7 +257,7 @@ function LocationSection({
             text-[0.72rem]
             uppercase
             tracking-wider
-            text-[#B3AB7A]
+            text-[#898548]
             leading-relaxed
             mb-5
           "
@@ -336,7 +336,7 @@ export default function InvitationPage() {
               font-semibold
               uppercase
               tracking-[0.12em]
-              text-[#B3AB7A]
+              text-[#898548]
               leading-[1]
               max-w-[330px]
               mx-auto
@@ -350,7 +350,7 @@ export default function InvitationPage() {
 
             <footer
               className="
-                text-[#B3AB7A]
+                text-[#898548]
                 font-semibold
                 tracking-[0.18em]
                 text-[0.60rem]
@@ -361,7 +361,7 @@ export default function InvitationPage() {
           </blockquote>
 
           {/* Bênção */}
-          <p className="text-[0.80rem] uppercase tracking-[0.12em] text-[#B3AB7A] font-semibold mb-16">
+          <p className="text-[0.80rem] uppercase tracking-[0.12em] text-[#898548] font-semibold mb-16">
             Com a bênção de Deus e de seus pais
           </p>
 
@@ -405,7 +405,7 @@ export default function InvitationPage() {
                 relative
                 z-10
                 font-script
-                text-[#35562f]
+                text-[#898548]
                 leading-[0.85]
                 mx-auto
                 flex
@@ -424,7 +424,7 @@ export default function InvitationPage() {
               <span
                 className="
                   self-center
-                  text-[#B3AB7A]
+                  text-[#898548]
                   font-body
                   text-[0.45em]
                   my-1
@@ -497,7 +497,7 @@ export default function InvitationPage() {
               text-[0.75rem]
               uppercase
               tracking-[0.16em]
-              text-[#B3AB7A] 
+              text-[#898548] 
               font-semibold
               mb-1
             "
@@ -509,7 +509,7 @@ export default function InvitationPage() {
             className="
               font-script
               text-[1.25rem]
-              text-[#B3AB7A]
+              text-[#898548]
               leading-none
               font-bold
               mb-16
@@ -528,7 +528,7 @@ export default function InvitationPage() {
               flex
               flex-col
               items-center
-              text-[#35562f]
+              text-[#898548]
               mb-8
             "
             aria-label="Data do casamento"
@@ -591,7 +591,7 @@ export default function InvitationPage() {
 
             <p
               className="
-                text-[#B3AB7A]
+                text-[#898548]
                 text-[0.75rem]
                 uppercase
                 tracking-[0.12em]
@@ -637,7 +637,7 @@ export default function InvitationPage() {
                 flex-col
                 items-center
                 gap-2.5
-                text-[#B3AB7A]
+                text-[#898548]
                 text-[0.6rem]
                 uppercase
                 tracking-[0.12em]
@@ -771,7 +771,7 @@ export default function InvitationPage() {
                   inset-4
                   border
                   border-dashed
-                  border-[#B3AB7A]/20
+                  border-[#898548]/20
                   pointer-events-none
                 "
                 style={{
@@ -789,7 +789,7 @@ export default function InvitationPage() {
                     flex
                     items-center
                     justify-center
-                    text-[#B3AB7A]
+                    text-[#898548]
                   "
                 >
 
@@ -901,7 +901,7 @@ export default function InvitationPage() {
             <h2
               className="
                 font-script
-                text-[#35562f]
+                text-[#898548]
                 leading-[0.85]
                 mb-10
                 ml-12
@@ -944,7 +944,7 @@ export default function InvitationPage() {
                   h-16
                   rounded-full
                   border
-                  border-[#B3AB7A]/25
+                  border-[#898548]/25
                   bg-[#f8fff3]/40
                   transition-transform
                   group-hover:scale-105
@@ -954,7 +954,7 @@ export default function InvitationPage() {
                   className="
                     w-8
                     h-8
-                    text-[#35562f]
+                    text-[#898548]
                   "
                   strokeWidth={1.4}
                 />
@@ -966,7 +966,7 @@ export default function InvitationPage() {
                   uppercase
                   tracking-[0.18em]
                   text-[0.7rem]
-                  text-[#35562f]
+                  text-[#898548]
                 "
               >
                 Lista de presentes
@@ -1015,7 +1015,7 @@ export default function InvitationPage() {
               text-[2rem]
               uppercase
               tracking-[0.16em]
-              text-[#B3AB7A] 
+              text-[#898548] 
               font-semibold
               mt-30
               mb-1
@@ -1028,7 +1028,7 @@ export default function InvitationPage() {
             className="
               font-script
               text-[1.25rem]
-              text-[#B3AB7A]
+              text-[#898548]
               leading-none
               font-bold
               mb-10
@@ -1066,7 +1066,7 @@ export default function InvitationPage() {
           {/* Assinatura final */}
           <div className="mb-6">
             <p
-              className="font-script text-[#35562f]"
+              className="font-script text-[#898548]"
               style={{ fontSize: "clamp(1.8rem, 8vw, 2.2rem)" }}
             >
               Amanda &amp; João Gabriel
