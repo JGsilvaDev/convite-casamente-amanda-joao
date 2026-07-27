@@ -127,7 +127,7 @@ export default function CoverPage() {
 
               <p
                 className="
-                  text-[#6c7b65]
+                  text-[#898548]
                   text-[8px]
                   uppercase
                   tracking-[0.25em]
