@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Great_Vibes, Cormorant_Garamond, Pinyon_Script } from "next/font/google";
+import { Great_Vibes, Cormorant_Garamond, Pinyon_Script, Newsreader } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next"
 import { Lato, Ballet  } from "next/font/google";
 import "./globals.css";
@@ -35,6 +35,13 @@ const pinyon = Pinyon_Script({
   weight: "400",
   variable: "--font-pinyon",
   display: "swap",
+});
+
+
+const newsreader = Newsreader({
+  subsets: ["latin"],
+  variable: "--font-newsreader",
+  weight: ["300", "400", "500", "600"],
 });
 
 export const metadata: Metadata = {
@@ -77,7 +84,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${greatVibes.variable} ${cormorant.variable} ${lato.variable} ${ballet.variable} ${pinyon.variable}`}
+      className={`${greatVibes.variable} ${cormorant.variable} ${lato.variable} ${ballet.variable} ${pinyon.variable} ${newsreader.variable}`}
     >
       <body>
         {children}

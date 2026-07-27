@@ -283,6 +283,10 @@ body {
   font-weight: 400;
 }
 
+.font-newsreader{
+  font-family: var(--font-body), serif;
+}
+
 .icon-green {
   filter:
     invert(35%)

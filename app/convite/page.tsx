@@ -342,6 +342,7 @@ export default function InvitationPage() {
               mx-auto
               mb-16
               px-4
+              font-newsreader
             "
           >
             <p className="mb-1">
