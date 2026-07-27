@@ -144,7 +144,7 @@ export default function Countdown() {
             {index < items.length - 1 && (
               <span
                 className="
-                  text-[#5e7657]
+                  text-[#898548]
                   font-light
                   mx-1
                   sm:mx-3
