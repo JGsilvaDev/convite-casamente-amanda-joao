@@ -901,7 +901,7 @@ export default function InvitationPage() {
               className="
                 max-w-[290px]
                 mx-auto
-                text-[#4f5f48]
+                text-[#898548]
               "
             >
               <p
@@ -1045,7 +1045,7 @@ export default function InvitationPage() {
               flex
               justify-center
               items-center
-              text-[#4f5f48]
+              text-[#898548]
               mb-10
             "
           >

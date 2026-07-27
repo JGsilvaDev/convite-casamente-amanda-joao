@@ -67,7 +67,7 @@ export default function Countdown() {
       <h2
         className="
           font-script
-          text-[#35562f]
+          text-[#898548]
           mb-8
           leading-[0.85]
         "
@@ -129,7 +129,7 @@ export default function Countdown() {
 
               <span
                 className="
-                  text-[#5e7657]
+                  text-[#898548]
                   uppercase
                   tracking-[0.15em]
                   text-[0.55rem]
