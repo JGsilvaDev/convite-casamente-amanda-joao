@@ -70,8 +70,8 @@ function MapButton({
           h-16
           rounded-full
           border
-          border-[#5e7657]/25
-          text-[#5e7657]
+          border-[#B3AB7A]/25
+          text-[#B3AB7A]
         "
       >
         {isCeremony ? (
@@ -127,7 +127,7 @@ function MusicButton() {
       <audio ref={audioRef} src={details.music} loop />
       <div className="flex flex-col items-center mb-10">
         <span
-          className="text-[#5e7657] font-script text-sm mb-2"
+          className="text-[#B3AB7A] font-script text-sm mb-2"
           style={{ transform: "rotate(-8deg)", display: "block" }}
         >
           toque a música
@@ -257,7 +257,7 @@ function LocationSection({
             text-[0.72rem]
             uppercase
             tracking-wider
-            text-[#5e7657]
+            text-[#B3AB7A]
             leading-relaxed
             mb-5
           "
@@ -326,7 +326,7 @@ export default function InvitationPage() {
         <div>
 
           {/* Música */}
-          <MusicButton />
+          {/* <MusicButton /> */}
 
           {/* Versículo */}
           <blockquote
@@ -336,7 +336,7 @@ export default function InvitationPage() {
               font-semibold
               uppercase
               tracking-[0.12em]
-              text-[#5e7657]
+              text-[#B3AB7A]
               leading-[1]
               max-w-[330px]
               mx-auto
@@ -350,7 +350,7 @@ export default function InvitationPage() {
 
             <footer
               className="
-                text-[#5e7657]
+                text-[#B3AB7A]
                 font-semibold
                 tracking-[0.18em]
                 text-[0.60rem]
@@ -361,7 +361,7 @@ export default function InvitationPage() {
           </blockquote>
 
           {/* Bênção */}
-          <p className="text-[0.80rem] uppercase tracking-[0.12em] text-[#5e7657] font-semibold mb-16">
+          <p className="text-[0.80rem] uppercase tracking-[0.12em] text-[#B3AB7A] font-semibold mb-16">
             Com a bênção de Deus e de seus pais
           </p>
 
@@ -424,7 +424,7 @@ export default function InvitationPage() {
               <span
                 className="
                   self-center
-                  text-[#5e7657]
+                  text-[#B3AB7A]
                   font-body
                   text-[0.45em]
                   my-1
@@ -497,7 +497,7 @@ export default function InvitationPage() {
               text-[0.75rem]
               uppercase
               tracking-[0.16em]
-              text-[#5e7657] 
+              text-[#B3AB7A] 
               font-semibold
               mb-1
             "
@@ -509,7 +509,7 @@ export default function InvitationPage() {
             className="
               font-script
               text-[1.25rem]
-              text-[#5e7657]
+              text-[#B3AB7A]
               leading-none
               font-bold
               mb-16
@@ -591,7 +591,7 @@ export default function InvitationPage() {
 
             <p
               className="
-                text-[#5e7657]
+                text-[#B3AB7A]
                 text-[0.75rem]
                 uppercase
                 tracking-[0.12em]
@@ -637,7 +637,7 @@ export default function InvitationPage() {
                 flex-col
                 items-center
                 gap-2.5
-                text-[#5e7657]
+                text-[#B3AB7A]
                 text-[0.6rem]
                 uppercase
                 tracking-[0.12em]
@@ -771,7 +771,7 @@ export default function InvitationPage() {
                   inset-4
                   border
                   border-dashed
-                  border-[#5e7657]/20
+                  border-[#B3AB7A]/20
                   pointer-events-none
                 "
                 style={{
@@ -789,7 +789,7 @@ export default function InvitationPage() {
                     flex
                     items-center
                     justify-center
-                    text-[#5e7657]
+                    text-[#B3AB7A]
                   "
                 >
 
@@ -944,7 +944,7 @@ export default function InvitationPage() {
                   h-16
                   rounded-full
                   border
-                  border-[#5e7657]/25
+                  border-[#B3AB7A]/25
                   bg-[#f8fff3]/40
                   transition-transform
                   group-hover:scale-105
@@ -1015,7 +1015,7 @@ export default function InvitationPage() {
               text-[2rem]
               uppercase
               tracking-[0.16em]
-              text-[#5e7657] 
+              text-[#B3AB7A] 
               font-semibold
               mt-30
               mb-1
@@ -1028,7 +1028,7 @@ export default function InvitationPage() {
             className="
               font-script
               text-[1.25rem]
-              text-[#5e7657]
+              text-[#B3AB7A]
               leading-none
               font-bold
               mb-10
